@@ -29,9 +29,16 @@
     <div class="limiter" id="app">
         <div class="container-login100" style="background-image: url('images/img-01.jpg');">
             <form class="form">
-                <h1 style="color: white; text-align: center;">CYBER<strong>KEY</strong></h1>
-                <h6 style="color: white; text-align: center; font-style: italic; padding: 10px 0px;"><i
-                    class="fa fa-code"></i> The password for your passwords</h6>
+                <div class="row">
+                    <div class="col-md-3"><img height="75" style="float: right;margin-right: -2rem;" src="images/cyberkey.png"></div>
+                    <div class="col-md-6">
+                        <h1 style="color: white; text-align: center;">CYBER<strong>KEY</strong></h1>
+                        <h6 style="color: white; text-align: center; font-style: italic; padding: 10px 0px;"><i
+                        class="fa fa-code"></i> The password for your passwords</h6>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                
                     <div class="wrap-input100">
 
                         <textarea v-model="texto" class="input100 m-b-10" id="message" rows="4" spellcheck="false"
@@ -81,7 +88,7 @@
                     <!-- <img height="45" src="images/open-souce-logo-footer.png"><br> -->
                     <a style="font-size: 12px;" class="txt1">Crypto-js Project -</a>
                     <a style="font-size: 12px;" class="txt1" href="https://opensource.org/licenses/BSD-3-Clause" target="_blank">New BSD License <br></a><br>
-                    <a href="https://cyber1.io" target="_blank" style="font-size: 16px;font-weight: bold; color: white" class="txt1">Developed and maintained by Cyber.1io</a><br>
+                    <a href="https://cyber1.io" target="_blank" style="font-size: 12px;font-weight: bold; color: white" class="txt1">This page is maintained by <img height="30" src="images/cyber1io.png"> Cyber.1io</a><br>
                 </p>
             </div>
 
