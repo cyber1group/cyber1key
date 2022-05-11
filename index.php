@@ -3,6 +3,9 @@
 <head>
     <title>CyberKey | The password for your passwords</title>
     <meta charset="UTF-8">
+    <meta name="description" content="Save your passwords and store them in a smart vault, encrypted with your own private key.">
+    <meta name="keywords" content="Encrypt, Cyberkey, password secure">
+    <meta name="author" content="Cyber1.io">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="images/favicon.png"/>
@@ -27,16 +30,15 @@
 <body>
 
     <div class="limiter" id="app">
-        <div class="container-login100" style="background-image: url('images/img-01.jpg');">
+        <div class="container-login100" style="background-image: url('images/password-bg.jpg');">
             <form class="form">
+                
                 <div class="row">
-                    <div class="col-md-3"><img height="75" style="float: right;margin-right: -2rem;" src="images/cyberkey.png"></div>
-                    <div class="col-md-6">
-                        <h1 style="color: white; text-align: center;">CYBER<strong>KEY</strong></h1>
-                        <h6 style="color: white; text-align: center; font-style: italic; padding: 10px 0px;"><i
-                        class="fa fa-code"></i> The password for your passwords</h6>
+                    <div class="col-xs-3 col-lg-3 col-md-3 col-sm-2 col-2"></div>
+                    <div class="col-xs-6 col-lg-6 col-md-6 col-sm-8 col-8 m-b-20">
+                        <img src="images/cyber1key-full.svg" style="width: 100%;">
                     </div>
-                    <div class="col-md-3"></div>
+                    <div class="col-xs-3 col-lg-3 col-md-3 col-sm-2 col-2"></div>
                 </div>
                 
                     <div class="wrap-input100">
